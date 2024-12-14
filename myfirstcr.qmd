@@ -1,0 +1,60 @@
+---
+title: My document
+format:
+  closeread-html:
+    remove-header-space: true
+    cr-style:
+      section-background-color: white
+      narrative-font-family: sans-serif
+      narrative-text-color-sidebar: white
+      narrative-background-color-sidebar: black
+---
+
+:::: cr-section
+The Los Angeles Dodgers won their 8th World Series title on October 28th, defeating the New York Yankees 4 games to 1 in a Best-of-7 Series. @cr-WS
+
+::: {#cr-WS}
+![](WS.png)
+:::
+::::
+
+::: cr-section
+But the Dodgers manager claimed the San Diego Padres, their first playoff opponent,
+was their biggest challenge. [@cr-roberts]{zoom-to="1" highlight="1"}
+
+| {#cr-roberts}
+| “I felt, from my perspective, that was the World Series...
+| when we started the postseason, they were one through 26, the best team..."
+| *Dodgers manager Dave Roberts on the [On Base With Mookie Betts](https://www.youtube.com/watch?v=7j4GQz24k0Y&list=PLoqDIJHlyN3P5T7m9eVHpeGSyYHOPXEIr&index=2) podcast* 
+:::
+
+
+:::: cr-section
+The Dodgers beat the Padres 3 games to 2 in a Best-of-5 series. Outside of Game 2 and Game 5, the score difference between the two teams was within 3 runs. @cr-NLDS 
+
+The Padres went scoreless in the final 2 games. [@cr-NLDS]{pan-to="-725px"}
+
+::: {#cr-NLDS}
+![](NLDS.png)
+:::
+::::
+
+
+:::: cr-section
+Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. 
+This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/).  @cr-launchplot_full
+
+::: {#cr-launchplot_full}
+![](launchplot_all.html){width="900" height="700"}
+:::
+::::
+
+:::: cr-section
+Since the score difference between teams in most games was close, let's zoom into the area where home runs occurred.  @cr-launchplot_hr_range
+
+We can see that the 17 home runs hit in the series had a launch angle ranging from 22 to 37 degrees and a launch speed ranging from 94 to 112 miles per hour. However, other events, including outs and other hit types, occurred within the ranges of those metrics. @cr-launchplot_hr_range
+
+::: {#cr-launchplot_hr_range}
+![](launchplot_hrRange_video.html){width="900" height="700"}
+:::
+
