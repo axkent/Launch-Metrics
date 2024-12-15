@@ -38,11 +38,20 @@ The Padres went scoreless in the final 2 games. [@cr-NLDS]{pan-to="-725px"}
 ::::
 
 :::: cr-section
-Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. Blue dots represent hits, while orange dots represent all other ball in play events. Large blue dots represent home runs. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). @cr-launchplot_full_static
+Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. Blue dots represent hits, while orange dots represent all other ball in play events. **Large blue dots represent home runs**. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). @cr-launchplot_full_static
 
 ::: {#cr-launchplot_full_static}
 ![](visualizations/launchplot_all.png)
 :::
+
+Ground balls tend to occur in this range, with lower launch angles. [@cr-launchplot_full_static]{pan-to="755px"}
+
+
+Pop-ups tend to occur in this range, with higher launch angles. [@cr-launchplot_full_static]{pan-to="-825px"}
+
+
+While line drives and fly balls fall somewhere in between. [@cr-launchplot_full_static]
+
 ::::
 
 :::: cr-section
@@ -94,7 +103,7 @@ Two of the balls *not* hit for a home run occurred in Game 5, where the Padres l
 :::
 
 ::: {#cr-launchplot-MachadoNearMissOnly}
-![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleNotHit1213.html){width="900" height="700"}
+![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html){width="900" height="700"}
 :::
 
 :::::

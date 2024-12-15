@@ -51,9 +51,9 @@ ul.task-list li input[type="checkbox"] {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-narrative-font-family: sans-serif;
+          --cr-narrative-text-color-sidebar: white;
+--cr-narrative-font-family: sans-serif;
 --cr-section-background-color: white;
---cr-narrative-text-color-sidebar: white;
 --cr-narrative-background-color-sidebar: black;
         }
       </style>
@@ -137,7 +137,22 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
-<p>Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. Blue dots represent hits, while orange dots represent all other ball in play events. Large blue dots represent home runs. This plot was inspired by a <a href="https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/">project made by Jim Albert</a>.</p>
+<p>Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. Blue dots represent hits, while orange dots represent all other ball in play events. <strong>Large blue dots represent home runs</strong>. This plot was inspired by a <a href="https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/">project made by Jim Albert</a>.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-pan-to="755px" data-focus-on="cr-launchplot_full_static">
+<div class="narrative">
+<p>Ground balls tend to occur in this range, with lower launch angles.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-pan-to="-825px" data-focus-on="cr-launchplot_full_static">
+<div class="narrative">
+<p>Pop-ups tend to occur in this range, with higher launch angles.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
+<div class="narrative">
+<p>While line drives and fly balls fall somewhere in between.</p>
 </div>
 </div>
 </div>
@@ -237,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <p><embed src="visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngle1213.html" width="900" height="700"></p>
 </div>
 <div id="cr-launchplot-MachadoNearMissOnly" class="sticky">
-<p><embed src="visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleNotHit1213.html" width="900" height="700"></p>
+<p><embed src="visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html" width="900" height="700"></p>
 </div>
 </div>
 </div>
