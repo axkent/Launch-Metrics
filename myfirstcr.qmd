@@ -38,13 +38,13 @@ The Padres went scoreless in the final 2 games. [@cr-NLDS]{pan-to="-725px"}
 ::::
 
 :::: cr-section
-Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/).
+Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). [@cr-launchplot_full_static]
 
-* Blue dots represent hits
+* Blue dots represent hits 
 * Orange dots represent all other ball in play events
-* **Large blue dots represent home runs**
+* **Large blue dots represent home runs**   
 
-@cr-launchplot_full_static
+[@cr-launchplot_full_static]
 
 ::: {#cr-launchplot_full_static}
 ![](visualizations/launchplot_all.png)
