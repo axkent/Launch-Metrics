@@ -60,7 +60,7 @@ Since the score difference between teams in most games was close, let's zoom int
 We can see that the 17 home runs hit in the series had a launch angle ranging from 22 to 37 degrees and a launch speed ranging from 94 to 112 miles per hour. However, other events, including outs and other hit types, occurred within the ranges of those metrics. @cr-launchplot_hr_range
 
 ::: {#cr-launchplot_hr_range}
-![](visualizations/launchplot_hrRange_video.html){width="900" height="700"}
+![](visualizations/1213VIZ/launchplot_hrRange_video1213.html){width="900" height="700"}
 :::
 ::::
 
@@ -70,24 +70,31 @@ Dodgers designated hitter Shohei Ohtani, the 2024 National League Most Valuable 
 His home run was a substantial key to the Dodgers win in Game 1, as it scored 3 runs in a game the Dodgers won 7-5. @cr-launchplot_hr_Ohtani_HR
 
 ::: {#cr-launchplot_hr_range_Ohtani}
-![](visualizations/launchplot_hrRange_Ohtani.html){width="900" height="700"}
+![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213.html){width="900" height="700"}
 :::
 
 ::: {#cr-launchplot_hr_Ohtani_HR}
-![](visualizations/launchplot_HRrange_OhtaniHR.html){width="900" height="700"}
+![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213_HR.html){width="900" height="700"}
 :::
 :::::
 
 ::::: cr-section
 Padres third baseman Manny Machado, hit 3 balls within the home range run window. @cr-launchplot_hr_range_Machado
 
-Two of the balls *not* hit for a home run occurred in Game 5, where the Padres lost 2-0. Each of those balls came up just short of clearing the wall for a home run. @cr-launchplot_hr_MachadoNotHR2
+If we expand the window of observations we see by increasing the launch angle from 37 degrees to 41 degrees, we can see a couple more near miss home runs from Machado. @cr-launchplot-MachadoNearMiss
+
+Two of the balls *not* hit for a home run occurred in Game 5, where the Padres lost 2-0. Each of those balls came up just short of clearing the wall for a home run. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot_hr_range_Machado}
-![](visualizations/launchplot_hrRange_Machado.html){width="900" height="700"}
+![](visualizations/1213VIZ/launchplot_hrRange_Machado1213.html){width="900" height="700"}
 :::
 
-::: {#cr-launchplot_hr_MachadoNotHR2}
-![](visualizations/launchplot_HRrange_Machado_NotHR2.html){width="900" height="700"}
+::: {#cr-launchplot-MachadoNearMiss}
+![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngle1213.html){width="900" height="700"}
 :::
+
+::: {#cr-launchplot-MachadoNearMissOnly}
+![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleNotHit1213.html){width="900" height="700"}
+:::
+
 :::::
