@@ -115,3 +115,13 @@ Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell ju
 ![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html){width="900" height="700"}
 :::
 ::::::
+
+
+# Shiny App
+The Launch Plot for the 2024 Dodgers-Padres Playoff series is available in a [Shiny app](github.com). 
+
+# Acknowledgements
+
+I would like to acknowledge [Jim Albert](https://gist.github.com/bayesball), for his visualizations created on his blog post titled ["Zack Wheeler’s Pitching in the 2023 NLCS"](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/) encouraged me to do a deep dive on the 2024 Dodgers-Padres playoff series. Albert's code used to generate that blog post's visualizations is found [here](https://gist.github.com/bayesball/a1f8ddb4593e7b31b83022e511f5e560).
+
+I would also like to acknowledge [Robert Frey](https://github.com/robert-frey), for his YouTube tutorial titled ["Combine Video with a Savant Dataset!"](https://www.youtube.com/watch?v=a_fIJxuaQL8) and code demonstrated how to retrieve videos for each observation. Frey's code is available [here](https://github.com/robert-frey/YouTube/blob/master/Combine%20Video%20with%20a%20Savant%20Dataset!/savant_videos.R).
