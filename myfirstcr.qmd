@@ -19,7 +19,7 @@ The Los Angeles Dodgers won their 8th World Series title on October 28th, defeat
 ::::
 
 ::: cr-section
-But the Dodgers manager claimed the San Diego Padres, their first playoff opponent, was their biggest challenge. @cr-roberts
+But the Dodgers' manager called the San Diego Padres, their first playoff opponent, their toughest challenge. [@cr-roberts]{zoom-to="1" highlight="1"}
 
 | {#cr-roberts}
 | “I felt, from my perspective, that was the World Series...
@@ -28,9 +28,9 @@ But the Dodgers manager claimed the San Diego Padres, their first playoff oppone
 :::
 
 :::: cr-section
-The Dodgers beat the Padres 3 games to 2 in a Best-of-5 series. Outside of Game 2 and Game 5, the score difference between the two teams was within 3 runs. @cr-NLDS
+The Dodgers won the NLDS 3-2 in a Best-of-5 series. Aside from Game 2 and Game 5, all games were decided by 3 runs or fewer. @cr-NLDS
 
-The Padres went scoreless in the final 2 games. @cr-NLDS
+The Padres were held scoreless in the final two games. [@cr-NLDS]{pan-to="-725px"}
 
 ::: {#cr-NLDS}
 ![](visualizations/NLDS.png)
@@ -38,27 +38,26 @@ The Padres went scoreless in the final 2 games. @cr-NLDS
 ::::
 
 :::: cr-section
-Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). [@cr-launchplot_full_static]
+To deeper analyze the series, let's look at the quality of balls in play. This visualization is inspired by a [project by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). @cr-launchplot_full_static
 
--   Blue dots represent hits
--   Orange dots represent all other ball in play events
--   **Large blue dots represent home runs**
+-   Blue dots represent hits. @cr-launchplot_full_static
+-   Orange dots represent all other ball in play events.
+-   **Large blue dots represent home runs.** 
 
-[@cr-launchplot_full_static]
 
 ::: {#cr-launchplot_full_static}
 ![](visualizations/launchplot_all.png)
 :::
 
-Ground balls tend to occur in this range, with lower launch angles. @cr-launchplot_full_static
+Ground balls typically occur in this range, with low launch angles. [@cr-launchplot_full_static]{pan-to="755px"}
 
-Pop-ups tend to occur in this range, with higher launch angles. @cr-launchplot_full_static
+Pop-ups typically occur in this range, with high launch angles. [@cr-launchplot_full_static]{pan-to="-825px"}
 
-While line drives and fly balls fall somewhere in between. [@cr-launchplot_full_static]
+Line drives and fly balls fall somewhere in between. @cr-launchplot_full_static
 ::::
 
 :::: cr-section
-Following this demo, you'll be able to hover over the plot to retrieve videos of the observation, hosted on [baseballsavant.mlb.com](baseballsavant.mlb.com)@cr-launchplot_demo
+Hovering over the plot allows readers to click hyperlinks that show videos of the plot's observations, hosted on [Baseball Savant](baseballsavant.mlb.com). @cr-launchplot_demo
 
 ::: {#cr-launchplot_demo}
 ![](visualizations/PlotInteractDemo.mp4)
@@ -74,9 +73,9 @@ Try for yourself. @cr-launchplot_full
 ::::
 
 :::: cr-section
-Since the score difference between teams in most games was close, let's zoom into the area where home runs occurred. @cr-launchplot_hr_range
+Given the close score margins in most of the games, looking at the window of where home runs fell may be insightful. Let's zoom in on the area where home runs, and near-home runs occurred. @cr-launchplot_hr_range
 
-We can see that the 17 home runs hit in the series had a launch angle ranging from 22 to 37 degrees and a launch speed ranging from 94 to 112 miles per hour. However, other events, including outs and other hit types, occurred within the ranges of those metrics. @cr-launchplot_hr_range
+The 17 home runs hit in the series had launch angles ranging from 22 to 37 degrees and launch speeds from 94 to 112 mph. As seen in the plot, a ball falling in the home run window does not necessarily mean a home run occurred. @cr-launchplot_hr_range
 
 ::: {#cr-launchplot_hr_range}
 ![](visualizations/1213VIZ/launchplot_hrRange_video1213.html){width="900" height="700"}
@@ -84,9 +83,9 @@ We can see that the 17 home runs hit in the series had a launch angle ranging fr
 ::::
 
 ::::: cr-section
-Dodgers designated hitter Shohei Ohtani, the 2024 National League Most Valuable Player award winner, hit 2 balls within the home range run window. @cr-launchplot_hr_range_Ohtani
+**Shohei Ohtani**, the 2024 NL MVP and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
 
-His home run was a substantial key to the Dodgers win in Game 1, as it scored 3 runs in a game the Dodgers won 7-5. @cr-launchplot_hr_Ohtani_HR
+His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win. @cr-launchplot_hr_Ohtani_HR
 
 ::: {#cr-launchplot_hr_range_Ohtani}
 ![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213.html){width="900" height="700"}
@@ -98,11 +97,11 @@ His home run was a substantial key to the Dodgers win in Game 1, as it scored 3 
 :::::
 
 :::::: cr-section
-Padres third baseman Manny Machado, hit 3 balls within the home range run window. @cr-launchplot_hr_range_Machado
+**Manny Machado**, the Padres' third baseman, hit 3 balls in the home run window. @cr-launchplot_hr_range_Machado
 
-If we expand the window of observations we see by increasing the launch angle from 37 degrees to 41 degrees, we can see a couple more near miss home runs from Machado. @cr-launchplot-MachadoNearMiss
+Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado. @cr-launchplot-MachadoNearMiss
 
-Two of the balls *not* hit for a home run occurred in Game 5, where the Padres lost 2-0. Each of those balls came up just short of clearing the wall for a home run. @cr-launchplot-MachadoNearMissOnly
+Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot_hr_range_Machado}
 ![](visualizations/1213VIZ/launchplot_hrRange_Machado1213.html){width="900" height="700"}

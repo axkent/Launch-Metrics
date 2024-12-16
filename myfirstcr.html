@@ -52,9 +52,9 @@ ul.task-list li input[type="checkbox"] {
       <style>
         :root {
           --cr-narrative-text-color-sidebar: white;
---cr-narrative-font-family: sans-serif;
---cr-narrative-background-color-sidebar: black;
 --cr-section-background-color: white;
+--cr-narrative-background-color-sidebar: black;
+--cr-narrative-font-family: sans-serif;
         }
       </style>
     
@@ -96,9 +96,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-focus-on="cr-roberts">
+<div class="trigger new-trigger" data-zoom-to="1" data-focus-on="cr-roberts" data-highlight="1">
 <div class="narrative">
-<p>But the Dodgers manager claimed the San Diego Padres, their first playoff opponent, was their biggest challenge.</p>
+<p>But the Dodgers’ manager called the San Diego Padres, their first playoff opponent, their toughest challenge.</p>
 </div>
 </div>
 </div>
@@ -116,12 +116,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-NLDS">
 <div class="narrative">
-<p>The Dodgers beat the Padres 3 games to 2 in a Best-of-5 series. Outside of Game 2 and Game 5, the score difference between the two teams was within 3 runs.</p>
+<p>The Dodgers won the NLDS 3-2 in a Best-of-5 series. Aside from Game 2 and Game 5, all games were decided by 3 runs or fewer.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-NLDS">
+<div class="trigger new-trigger" data-pan-to="-725px" data-focus-on="cr-NLDS">
 <div class="narrative">
-<p>The Padres went scoreless in the final 2 games.</p>
+<p>The Padres were held scoreless in the final two games.</p>
 </div>
 </div>
 </div>
@@ -137,36 +137,31 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
-<p>Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. This plot was inspired by a <a href="https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/">project made by Jim Albert</a>.</p>
+<p>To deeper analyze the series, let’s look at the quality of balls in play. This visualization is inspired by a <a href="https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/">project by Jim Albert</a>.</p>
 </div>
 </div>
 <div class="trigger">
 <div class="narrative">
 <ul>
-<li>Blue dots represent hits</li>
-<li>Orange dots represent all other ball in play events</li>
-<li><strong>Large blue dots represent home runs</strong></li>
+<li>Blue dots represent hits. <span class="citation" data-cites="cr-launchplot_full_static">@cr-launchplot_full_static</span></li>
+<li>Orange dots represent all other ball in play events.</li>
+<li><strong>Large blue dots represent home runs.</strong></li>
 </ul>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
+<div class="trigger new-trigger" data-pan-to="755px" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
-
+<p>Ground balls typically occur in this range, with low launch angles.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
+<div class="trigger new-trigger" data-pan-to="-825px" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
-<p>Ground balls tend to occur in this range, with lower launch angles.</p>
-</div>
-</div>
-<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
-<div class="narrative">
-<p>Pop-ups tend to occur in this range, with higher launch angles.</p>
+<p>Pop-ups typically occur in this range, with high launch angles.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
-<p>While line drives and fly balls fall somewhere in between.</p>
+<p>Line drives and fly balls fall somewhere in between.</p>
 </div>
 </div>
 </div>
@@ -182,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_demo">
 <div class="narrative">
-<p>Following this demo, you’ll be able to hover over the plot to retrieve videos of the observation, hosted on <a href="baseballsavant.mlb.com">baseballsavant.mlb.com</a></p>
+<p>Hovering over the plot allows readers to click hyperlinks that show videos of the plot’s observations, hosted on <a href="baseballsavant.mlb.com">Baseball Savant</a>.</p>
 </div>
 </div>
 </div>
@@ -214,12 +209,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_hr_range">
 <div class="narrative">
-<p>Since the score difference between teams in most games was close, let’s zoom into the area where home runs occurred.</p>
+<p>Given the close score margins in most of the games, looking at the window of where home runs fell may be insightful. Let’s zoom in on the area where home runs, and near-home runs occurred.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_hr_range">
 <div class="narrative">
-<p>We can see that the 17 home runs hit in the series had a launch angle ranging from 22 to 37 degrees and a launch speed ranging from 94 to 112 miles per hour. However, other events, including outs and other hit types, occurred within the ranges of those metrics.</p>
+<p>The 17 home runs hit in the series had launch angles ranging from 22 to 37 degrees and launch speeds from 94 to 112 mph. As seen in the plot, a ball falling in the home run window does not necessarily mean a home run occurred.</p>
 </div>
 </div>
 </div>
@@ -235,12 +230,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_hr_range_Ohtani">
 <div class="narrative">
-<p>Dodgers designated hitter Shohei Ohtani, the 2024 National League Most Valuable Player award winner, hit 2 balls within the home range run window.</p>
+<p><strong>Shohei Ohtani</strong>, the 2024 NL MVP and Dodgers’ designated hitter, hit 2 balls in the home run window.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_hr_Ohtani_HR">
 <div class="narrative">
-<p>His home run was a substantial key to the Dodgers win in Game 1, as it scored 3 runs in a game the Dodgers won 7-5.</p>
+<p>His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win.</p>
 </div>
 </div>
 </div>
@@ -259,17 +254,17 @@ ul.task-list li input[type="checkbox"] {
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_hr_range_Machado">
 <div class="narrative">
-<p>Padres third baseman Manny Machado, hit 3 balls within the home range run window.</p>
+<p><strong>Manny Machado</strong>, the Padres’ third baseman, hit 3 balls in the home run window.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-launchplot-MachadoNearMiss">
 <div class="narrative">
-<p>If we expand the window of observations we see by increasing the launch angle from 37 degrees to 41 degrees, we can see a couple more near miss home runs from Machado.</p>
+<p>Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-launchplot-MachadoNearMissOnly">
 <div class="narrative">
-<p>Two of the balls <em>not</em> hit for a home run occurred in Game 5, where the Padres lost 2-0. Each of those balls came up just short of clearing the wall for a home run.</p>
+<p>Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history.</p>
 </div>
 </div>
 </div>
