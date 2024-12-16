@@ -19,7 +19,7 @@ The Los Angeles Dodgers won their 8th World Series title on October 28th, defeat
 ::::
 
 ::: cr-section
-But the Dodgers manager claimed the San Diego Padres, their first playoff opponent, was their biggest challenge. [@cr-roberts]{zoom-to="1" highlight="1"}
+But the Dodgers manager claimed the San Diego Padres, their first playoff opponent, was their biggest challenge. @cr-roberts
 
 | {#cr-roberts}
 | “I felt, from my perspective, that was the World Series...
@@ -30,7 +30,7 @@ But the Dodgers manager claimed the San Diego Padres, their first playoff oppone
 :::: cr-section
 The Dodgers beat the Padres 3 games to 2 in a Best-of-5 series. Outside of Game 2 and Game 5, the score difference between the two teams was within 3 runs. @cr-NLDS
 
-The Padres went scoreless in the final 2 games. [@cr-NLDS]{pan-to="-725px"}
+The Padres went scoreless in the final 2 games. @cr-NLDS
 
 ::: {#cr-NLDS}
 ![](visualizations/NLDS.png)
@@ -40,9 +40,9 @@ The Padres went scoreless in the final 2 games. [@cr-NLDS]{pan-to="-725px"}
 :::: cr-section
 Looking the the quality of balls in hit play during the series can give us a deeper insight on the Dodgers-Padres series. This plot was inspired by a [project made by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). [@cr-launchplot_full_static]
 
-* Blue dots represent hits 
-* Orange dots represent all other ball in play events
-* **Large blue dots represent home runs**   
+-   Blue dots represent hits
+-   Orange dots represent all other ball in play events
+-   **Large blue dots represent home runs**
 
 [@cr-launchplot_full_static]
 
@@ -50,18 +50,23 @@ Looking the the quality of balls in hit play during the series can give us a dee
 ![](visualizations/launchplot_all.png)
 :::
 
-Ground balls tend to occur in this range, with lower launch angles. [@cr-launchplot_full_static]{pan-to="755px"}
+Ground balls tend to occur in this range, with lower launch angles. @cr-launchplot_full_static
 
-
-Pop-ups tend to occur in this range, with higher launch angles. [@cr-launchplot_full_static]{pan-to="-825px"}
-
+Pop-ups tend to occur in this range, with higher launch angles. @cr-launchplot_full_static
 
 While line drives and fly balls fall somewhere in between. [@cr-launchplot_full_static]
-
 ::::
 
 :::: cr-section
-From now on, you may click on an observation to see the video of the play, hosted on [baseballsavant.mlb.com](baseballsavant.mlb.com) @cr-launchplot_full
+Following this demo, you'll be able to hover over the plot to retrieve videos of the observation, hosted on [baseballsavant.mlb.com](baseballsavant.mlb.com)@cr-launchplot_demo
+
+::: {#cr-launchplot_demo}
+![](visualizations/PlotInteractDemo.mp4)
+:::
+::::
+
+:::: cr-section
+Try for yourself. @cr-launchplot_full
 
 ::: {#cr-launchplot_full}
 ![](visualizations/launchplot_all.html){width="900" height="700"}
@@ -69,7 +74,6 @@ From now on, you may click on an observation to see the video of the play, hoste
 ::::
 
 :::: cr-section
-
 Since the score difference between teams in most games was close, let's zoom into the area where home runs occurred. @cr-launchplot_hr_range
 
 We can see that the 17 home runs hit in the series had a launch angle ranging from 22 to 37 degrees and a launch speed ranging from 94 to 112 miles per hour. However, other events, including outs and other hit types, occurred within the ranges of those metrics. @cr-launchplot_hr_range
@@ -93,7 +97,7 @@ His home run was a substantial key to the Dodgers win in Game 1, as it scored 3 
 :::
 :::::
 
-::::: cr-section
+:::::: cr-section
 Padres third baseman Manny Machado, hit 3 balls within the home range run window. @cr-launchplot_hr_range_Machado
 
 If we expand the window of observations we see by increasing the launch angle from 37 degrees to 41 degrees, we can see a couple more near miss home runs from Machado. @cr-launchplot-MachadoNearMiss
@@ -111,5 +115,4 @@ Two of the balls *not* hit for a home run occurred in Game 5, where the Padres l
 ::: {#cr-launchplot-MachadoNearMissOnly}
 ![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html){width="900" height="700"}
 :::
-
-:::::
+::::::

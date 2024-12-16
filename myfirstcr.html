@@ -53,8 +53,8 @@ ul.task-list li input[type="checkbox"] {
         :root {
           --cr-narrative-text-color-sidebar: white;
 --cr-narrative-font-family: sans-serif;
---cr-section-background-color: white;
 --cr-narrative-background-color-sidebar: black;
+--cr-section-background-color: white;
         }
       </style>
     
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-focus-on="cr-roberts" data-highlight="1" data-zoom-to="1">
+<div class="trigger new-trigger" data-focus-on="cr-roberts">
 <div class="narrative">
 <p>But the Dodgers manager claimed the San Diego Padres, their first playoff opponent, was their biggest challenge.</p>
 </div>
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The Dodgers beat the Padres 3 games to 2 in a Best-of-5 series. Outside of Game 2 and Game 5, the score difference between the two teams was within 3 runs.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-pan-to="-725px" data-focus-on="cr-NLDS">
+<div class="trigger new-trigger" data-focus-on="cr-NLDS">
 <div class="narrative">
 <p>The Padres went scoreless in the final 2 games.</p>
 </div>
@@ -154,12 +154,12 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </div>
-<div class="trigger new-trigger" data-pan-to="755px" data-focus-on="cr-launchplot_full_static">
+<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
 <p>Ground balls tend to occur in this range, with lower launch angles.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-pan-to="-825px" data-focus-on="cr-launchplot_full_static">
+<div class="trigger new-trigger" data-focus-on="cr-launchplot_full_static">
 <div class="narrative">
 <p>Pop-ups tend to occur in this range, with higher launch angles.</p>
 </div>
@@ -180,9 +180,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-launchplot_demo">
+<div class="narrative">
+<p>Following this demo, you’ll be able to hover over the plot to retrieve videos of the observation, hosted on <a href="baseballsavant.mlb.com">baseballsavant.mlb.com</a></p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-launchplot_demo" class="sticky">
+<p><video src="visualizations/PlotInteractDemo.mp4" class="img-fluid" controls=""><a href="visualizations/PlotInteractDemo.mp4">Video</a></video></p>
+</div>
+</div>
+</div>
+</div>
+<div class="cr-section cr-column-screen sidebar-left">
+<div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-launchplot_full">
 <div class="narrative">
-<p>From now on, you may click on an observation to see the video of the play, hosted on <a href="baseballsavant.mlb.com">baseballsavant.mlb.com</a></p>
+<p>Try for yourself.</p>
 </div>
 </div>
 </div>
