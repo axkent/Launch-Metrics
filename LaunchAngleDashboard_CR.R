@@ -147,7 +147,7 @@ nlds_data <- nlds_data |>
          launch_speed, video_url)
 
 write.csv(nlds_data, "nlds_data.csv")
-nlds_data <- read.csv("nlds_data.csv")
+nlds_data <- read.csv("data/nlds_data.csv")
 ##### The following shiny app only needs the nlds_data df to run. 
 
 ui <- fluidPage(
@@ -420,8 +420,8 @@ server <- function(input, output, session) {
       labs(
         title = sprintf("Launch Variables for Balls in Play:\nPitcher: %s\nBatter: %s", 
                         pitcher_title, batter_title),
-        x = "Launch Angle", 
-        y = "Launch Speed",
+        x = "Launch Angle (degrees)", 
+        y = "Launch Speed (mph)",
         caption = "*Big dot represents home runs"
       )
     
@@ -492,8 +492,8 @@ server <- function(input, output, session) {
           labs(
             title = sprintf("Launch Variables for Balls in Play\nPitcher: %s\nBatter: %s", 
                             pitcher_title, batter_title),
-            x = "Launch Angle", 
-            y = "Launch Speed",
+            x = "Launch Angle (degrees)", 
+            y = "Launch Speed (mph)",
             caption = "*Big dot represents home runs"
           )
         
