@@ -85,36 +85,46 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 ::::: cr-section
 **Shohei Ohtani**, the 2024 NL MVP and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
 
-His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win. @cr-launchplot_hr_Ohtani_HR
-
 ::: {#cr-launchplot_hr_range_Ohtani}
 ![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213.html){width="900" height="700"}
 :::
 
+:::::
+
+::::: cr-section
+His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win. @cr-launchplot_hr_Ohtani_HR
+
 ::: {#cr-launchplot_hr_Ohtani_HR}
 ![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213_HR.html){width="900" height="700"}
 :::
-:::::
+::::
+
 
 :::::: cr-section
 **Manny Machado**, the Padres' third baseman, hit 3 balls in the home run window. @cr-launchplot_hr_range_Machado
-
-Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado. @cr-launchplot-MachadoNearMiss
-
-Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot_hr_range_Machado}
 ![](visualizations/1213VIZ/launchplot_hrRange_Machado1213.html){width="900" height="700"}
 :::
 
+::::::
+
+:::::: cr-section
+Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado. @cr-launchplot-MachadoNearMiss
+
 ::: {#cr-launchplot-MachadoNearMiss}
 ![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngle1213.html){width="900" height="700"}
 :::
+::::::
+
+:::::: cr-section
+Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot-MachadoNearMissOnly}
 ![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html){width="900" height="700"}
 :::
 ::::::
+
 
 
 # Shiny App

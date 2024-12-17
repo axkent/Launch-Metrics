@@ -1,0 +1,4 @@
+- source: myfirstcr.qmd
+  quarto-pub:
+    - id: 6a0d236e-1490-480c-91b2-9f5cfd2fbe86
+      url: https://axkent.quarto.pub/my-document
