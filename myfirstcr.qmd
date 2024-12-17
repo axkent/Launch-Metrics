@@ -20,11 +20,14 @@ The Los Angeles Dodgers won their 8th World Series title on October 28th, defeat
 
 ::: cr-section
 But the Dodgers' manager called the San Diego Padres, their first playoff opponent, their toughest challenge. [@cr-roberts]{zoom-to="1" highlight="1"}
+
+
 | {#cr-roberts}
 | “I felt, from my perspective, that was the World Series...
 | when we started the postseason, they were one through 26, the best team..."
-
 | *Dodgers manager Dave Roberts on the [On Base With Mookie Betts](https://www.youtube.com/watch?v=7j4GQz24k0Y&list=PLoqDIJHlyN3P5T7m9eVHpeGSyYHOPXEIr&index=2) podcast*
+
+
 :::
 
 :::: cr-section
