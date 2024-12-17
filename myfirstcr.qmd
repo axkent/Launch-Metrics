@@ -30,12 +30,19 @@ But the Dodgers' manager called the San Diego Padres, their first playoff oppone
 :::: cr-section
 The Dodgers won the NLDS 3-2 in a Best-of-5 series. Aside from Game 2 and Game 5, all games were decided by 3 runs or fewer. @cr-NLDS
 
-The Padres were held scoreless in the final two games. [@cr-NLDS]{pan-to="-725px"}
-
 ::: {#cr-NLDS}
 ![](visualizations/NLDS.png)
 :::
 ::::
+
+:::: cr-section
+The Padres were held scoreless in the final two games. @cr-NLDS_Gm4Gm5
+
+::: {#cr-NLDS_Gm4Gm5}
+![](visualizations/NLDS_Gm4Gm5.png)
+:::
+::::
+
 
 :::: cr-section
 To deeper analyze the series, let's look at the quality of balls in play. This visualization is inspired by a [project by Jim Albert](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/). @cr-launchplot_full_static
