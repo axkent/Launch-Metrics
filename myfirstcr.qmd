@@ -71,7 +71,7 @@ Line drives and fly balls fall somewhere in between. @cr-launchplot_full_static
 Hovering over the plot allows readers to click hyperlinks that show videos of the plot's observations, hosted on [Baseball Savant](baseballsavant.mlb.com). Users can click and drag their cursor to zoom in on an area of interest. @cr-launchplot_demo
 
 ::: {#cr-launchplot_demo}
-![](visualizations/PlotInteractDemo.mp4)
+![](visualizations/PlotInteract.mp4)
 :::
 ::::
 
