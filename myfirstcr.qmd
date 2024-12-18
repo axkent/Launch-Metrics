@@ -1,15 +1,16 @@
 ---
-title: My document
+title: "Vectors of Victory"
+subtitle: "Looking Back at the Launch Metrics During the 2024 Dodgers-Padres Playoff Series<br>A Closeread project by [Axel Kent](https://www.linkedin.com/in/axel-kent/)"
 format:
   closeread-html:
-    remove-header-space: true
+    #remove-header-space: true
     cr-style:
       section-background-color: white
       narrative-font-family: sans-serif
       narrative-text-color-sidebar: white
       narrative-background-color-sidebar: black
+      
 ---
-
 :::: cr-section
 The Los Angeles Dodgers won their 8th World Series title on October 28th, defeating the New York Yankees 4 games to 1 in a Best-of-7 Series. @cr-WS
 
