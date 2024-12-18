@@ -59,7 +59,7 @@ To deeper analyze the series, let's look at the quality of balls in play. This v
 ![](visualizations/launchplot_all.png)
 :::
 
-Ground balls typically occur in this range, with low launch angles. [@cr-launchplot_full_static]{pan-to="755px"}
+Ground balls typically occur in this range, with low launch angles. [@cr-launchplot_full_static]{pan-to="715px"}
 
 Pop-ups typically occur in this range, with high launch angles. [@cr-launchplot_full_static]{pan-to="-825px"}
 
@@ -67,7 +67,7 @@ Line drives and fly balls fall somewhere in between. @cr-launchplot_full_static
 ::::
 
 :::: cr-section
-Hovering over the plot allows readers to click hyperlinks that show videos of the plot's observations, hosted on [Baseball Savant](baseballsavant.mlb.com). @cr-launchplot_demo
+Hovering over the plot allows readers to click hyperlinks that show videos of the plot's observations, hosted on [Baseball Savant](baseballsavant.mlb.com). Users can click and drag their cursor to zoom in on an area of interest. @cr-launchplot_demo
 
 ::: {#cr-launchplot_demo}
 ![](visualizations/PlotInteractDemo.mp4)
@@ -78,7 +78,7 @@ Hovering over the plot allows readers to click hyperlinks that show videos of th
 Try for yourself. @cr-launchplot_full
 
 ::: {#cr-launchplot_full}
-![](visualizations/launchplot_all.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_all.html){width="900" height="700"}
 :::
 ::::
 
@@ -88,7 +88,7 @@ Given the close score margins in most of the games, looking at the window of whe
 The 17 home runs hit in the series had launch angles ranging from 22 to 37 degrees and launch speeds from 94 to 112 mph. As seen in the plot, a ball falling in the home run window does not necessarily mean a home run occurred. @cr-launchplot_hr_range
 
 ::: {#cr-launchplot_hr_range}
-![](visualizations/1213VIZ/launchplot_hrRange_video1213.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_video.html){width="900" height="700"}
 :::
 ::::
 
@@ -96,7 +96,7 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 **Shohei Ohtani**, the 2024 NL MVP and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
 
 ::: {#cr-launchplot_hr_range_Ohtani}
-![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_Ohtani.html){width="900" height="700"}
 :::
 
 :::::
@@ -105,7 +105,7 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win. @cr-launchplot_hr_Ohtani_HR
 
 ::: {#cr-launchplot_hr_Ohtani_HR}
-![](visualizations/1213VIZ/launchplot_hrRange_Ohtani1213_HR.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_Ohtani_HR.html){width="900" height="700"}
 :::
 ::::
 
@@ -114,7 +114,7 @@ His lone home run in the series took place in Game 1, which provided 3 runs in a
 **Manny Machado**, the Padres' third baseman, hit 3 balls in the home run window. @cr-launchplot_hr_range_Machado
 
 ::: {#cr-launchplot_hr_range_Machado}
-![](visualizations/1213VIZ/launchplot_hrRange_Machado1213.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_Machado.html){width="900" height="700"}
 :::
 
 ::::::
@@ -123,7 +123,7 @@ His lone home run in the series took place in Game 1, which provided 3 runs in a
 Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado. @cr-launchplot-MachadoNearMiss
 
 ::: {#cr-launchplot-MachadoNearMiss}
-![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngle1213.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_MachadoExpandedAngle.html){width="900" height="700"}
 :::
 ::::::
 
@@ -131,7 +131,7 @@ Expanding the home run window to a launch angle of 41 degrees shows some near-mi
 Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot-MachadoNearMissOnly}
-![](visualizations/1213VIZ/launchplot_hrRange_MachadoExpandedAngleGm5_1213.html){width="900" height="700"}
+![](visualizations/1214VIZ/launchplot_hrRange_MachadoExpandedAngleGm5.html){width="900" height="700"}
 :::
 ::::::
 
