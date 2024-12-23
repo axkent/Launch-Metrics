@@ -43,7 +43,7 @@ You can access the Shiny app here:
 ---
 
 ### Acknowledgments
-This is my project for submission to the [Closeread Prize](https://posit.co/blog/Closeread-prize-announcement/). Big thank you to the Posit community for their help and putting this together.
+This is my project for submission to the [Closeread Prize](https://posit.co/blog/Closeread-prize-announcement/). Big thank you to the Posit community for their help and putting this event together.
 
 I would like to acknowledge [Jim Albert](https://gist.github.com/bayesball), for his visualizations created on his blog post titled ["Zack Wheeler’s Pitching in the 2023 NLCS"](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/) encouraged me to do a deep dive on the 2024 Dodgers-Padres playoff series. Albert's code used to generate that blog post's visualizations is found [here](https://gist.github.com/bayesball/a1f8ddb4593e7b31b83022e511f5e560).
 
