@@ -13,7 +13,7 @@ You can view the published Closeread article here:
 [Closeread Article](https://axkent.quarto.pub/my-document/)
 
 The Shiny app is hosted here:
-[Shiny App](https://axelkent.shinyapps.io/shiny-shiny/)
+[Shiny App](https://axelkent.shinyapps.io/LaunchMetricsApp/)
 
 ---
 
