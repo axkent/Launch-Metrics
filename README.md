@@ -1,6 +1,6 @@
 # Closeread Project: Launch Metrics in a Baseball Series
 
-![](visualizations/READMEdemo.png)
+![READMEdemo](https://github.com/user-attachments/assets/44123c5e-e650-435d-8266-adf5e05b3b00)
 
 ## Overview
 This repository contains materials for my [Closeread](https://closeread.dev/) project, an analysis of the 2024 Dodgers-Padres playoff matchup. The project includes:
