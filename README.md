@@ -1,4 +1,4 @@
-# Closeread Project: Launch Angle Metrics in a Baseball Series
+## Closeread Project: Launch Angle Metrics in a Baseball Series
 
 ![](https://raw.githubusercontent.com/axkent/MLB_LaunchAngle/refs/heads/main/visualizations/READMEdemo.png?token=GHSAT0AAAAAAC3ULW5RJVVCAVA56IZBBIZEZ3JC54A)
 
@@ -17,7 +17,7 @@ The Shiny app is hosted here:
 
 ---
 
-## How to Run the Shiny App
+### How to Run the Shiny App
 
 ### Locally
 1. Clone this repository:
@@ -36,13 +36,13 @@ You can access the Shiny app here:
 
 ---
 
-## Data and Visualizations
+### Data and Visualizations
 - **Data**: The data used in the analysis is stored in the `shiny/` folder. You can regenerate the dataset using the `retrieve_data.R` script.
 - **Visualizations**: The visualizations, including those created by the Shiny app and others used in the Closeread article, are in the `visualizations/` folder.
 
 ---
 
-## Acknowledgments
+### Acknowledgments
 This is my project for submission to the [Closeread Prize](https://posit.co/blog/Closeread-prize-announcement/). Big thank you to the Posit community for their help and putting this together.
 
 I would like to acknowledge [Jim Albert](https://gist.github.com/bayesball), for his visualizations created on his blog post titled ["Zack Wheeler’s Pitching in the 2023 NLCS"](https://baseballwithr.wordpress.com/2023/10/23/zack-wheelers-pitching-in-the-2023-nlcs/) encouraged me to do a deep dive on the 2024 Dodgers-Padres playoff series. Albert's code used to generate that blog post's visualizations is found [here](https://gist.github.com/bayesball/a1f8ddb4593e7b31b83022e511f5e560).
@@ -52,6 +52,6 @@ I would also like to acknowledge [Robert Frey](https://github.com/robert-frey), 
 
 ---
 
-## License
+### License
 This project is licensed under the MIT License.
 
