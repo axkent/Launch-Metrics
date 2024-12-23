@@ -1,4 +1,4 @@
-## Closeread Project: Launch Angle Metrics in a Baseball Series
+# Closeread Project: Launch Metrics in a Baseball Series
 
 ![](https://raw.githubusercontent.com/axkent/MLB_LaunchAngle/refs/heads/main/visualizations/READMEdemo.png?token=GHSAT0AAAAAAC3ULW5RJVVCAVA56IZBBIZEZ3JC54A)
 
