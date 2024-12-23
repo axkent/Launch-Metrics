@@ -1,11 +1,11 @@
-# Closeread Project: Reviewing Launch Angle Metrics in the 2024 Dodgers-Padres Playoff Series
+# Closeread Project: Launch Angle Metrics in a Baseball Series
 
 ![](https://raw.githubusercontent.com/axkent/MLB_LaunchAngle/refs/heads/main/visualizations/READMEdemo.png?token=GHSAT0AAAAAAC3ULW5RJVVCAVA56IZBBIZEZ3JC54A)
 
 ## Overview
-This repository contains materials for my Closeread project, an analysis of the 2024 Dodgers-Padres playoff matchup. The project includes:
+This repository contains materials for my [Closeread](https://closeread.dev/) project, an analysis of the 2024 Dodgers-Padres playoff matchup. The project includes:
 
-- A Closeread article that explores the series' launch angle metrics, with a particular focus on home runs.
+- A Closeread article that explores the series' launch angle metrics, with a particular focus on home runs. The Closeread extension must be installed to reproduce the article locally.
 - A Shiny app providing interactive visualizations and analysis of launch angle data. Most of the visualizations in the Closeread article were retrieved from the app. 
 - Supporting data, a data retrieval script, and visualizations to build the article.
 
@@ -53,5 +53,5 @@ I would also like to acknowledge [Robert Frey](https://github.com/robert-frey), 
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
