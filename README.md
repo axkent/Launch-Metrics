@@ -18,20 +18,12 @@ The Shiny app is hosted here:
 ---
 ### How to access the Closeread article locally
 1. Install the Closeread extension from [https://closeread.dev/](https://closeread.dev/).
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/axkent/Launch-Metrics
-   ```
-3. Run `index.qmd` in RStudio
+2. Run `index.qmd` in RStudio
 ---
 ### How to Access the Shiny App locally
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/axkent/Launch-Metrics
-   ```
-2. Navigate to the `shiny` folder
-3. Open `app.R` in RStudio and click **Run App**.
+1. Navigate to the `shiny` folder
+2. Open `app.R` in RStudio and click **Run App**.
 
 ---
 
