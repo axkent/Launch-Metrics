@@ -6,7 +6,7 @@ library(shiny)
 ##### The following shiny app only needs the nlds_data df to run. 
 nlds_data <- read.csv("nlds_data.csv")
 ui <- fluidPage(
-  titlePanel("Pitcher and Batter Outcomes"),
+  titlePanel("Launch Metrics: 2024 Dodgers-Padres Playoff Series"),
   
   sidebarLayout(
     sidebarPanel(
@@ -369,3 +369,4 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui = ui, server = server)
+

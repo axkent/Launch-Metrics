@@ -3,3 +3,4 @@ _publish.yml
 .Rhistory
 index_files/
 index.html
+shiny/rsconnect/

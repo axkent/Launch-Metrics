@@ -5,6 +5,6 @@ account: axelkent
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13634972
-bundleId: 9560046
+bundleId: 9564649
 url: https://axelkent.shinyapps.io/LaunchMetricsApp/
 version: 1
