@@ -5,34 +5,36 @@
 ## Overview
 This repository contains materials for my [Closeread](https://closeread.dev/) project, an analysis of the 2024 Dodgers-Padres playoff matchup. The project includes:
 
-- A Closeread article that explores the series' launch angle metrics, with a particular focus on home runs. The Closeread extension must be installed to reproduce the article locally.
+- A Closeread article that explores the series' launch angle metrics, with a particular focus on home runs. 
 - A Shiny app providing interactive visualizations and analysis of launch angle data. Most of the visualizations in the Closeread article were retrieved from the app. 
 - Supporting data, a data retrieval script, and visualizations to build the article.
 
 You can view the published Closeread article here:
-[Closeread Article](https://axkent.quarto.pub/my-document/)
+[Closeread Article](https://axkent.quarto.pub/closeread-vectors-of-victory/)
 
 The Shiny app is hosted here:
 [Shiny App](https://axelkent.shinyapps.io/LaunchMetricsApp/)
 
 ---
+### How to access the Closeread article locally
+1. Install the Closeread extension from [https://closeread.dev/](https://closeread.dev/).
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/axkent/Launch-Metrics
+   ```
+3. Run `index.qmd` in RStudio
+---
+### How to Access the Shiny App locally
 
-### How to Run the Shiny App
-
-### Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/axkent/MLB_LaunchAngle
+   git clone https://github.com/axkent/Launch-Metrics
    ```
 2. Navigate to the `shiny` folder:
    ```bash
    cd Closeread-project/shiny
    ```
 3. Open `app.R` in RStudio and click **Run App**.
-
-### Online
-You can access the Shiny app here:
-[Shiny App](https://axelkent.shinyapps.io/LaunchMetricsApp/)
 
 ---
 
