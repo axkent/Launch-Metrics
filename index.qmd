@@ -94,7 +94,7 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 ::::
 
 ::::: cr-section
-**Shohei Ohtani**, the 2024 NL MVP and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
+**Shohei Ohtani**, the 2024 National League Most Valuable Player and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
 
 ::: {#cr-launchplot_hr_range_Ohtani}
 ![](visualizations/1214VIZ/launchplot_hrRange_Ohtani.html){width="900" height="700"}
