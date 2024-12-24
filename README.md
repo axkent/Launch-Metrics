@@ -30,10 +30,7 @@ The Shiny app is hosted here:
    ```bash
    git clone https://github.com/axkent/Launch-Metrics
    ```
-2. Navigate to the `shiny` folder:
-   ```bash
-   cd Closeread-project/shiny
-   ```
+2. Navigate to the `shiny` folder
 3. Open `app.R` in RStudio and click **Run App**.
 
 ---
