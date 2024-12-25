@@ -79,7 +79,7 @@ Hovering over the plot allows readers to click hyperlinks that show videos of th
 Try for yourself. @cr-launchplot_full
 
 ::: {#cr-launchplot_full}
-![](visualizations/1214VIZ/launchplot_all.html){width="900" height="700"}
+![](visualizations/launchplot_all.html){width="900" height="700"}
 :::
 ::::
 
@@ -89,7 +89,7 @@ Given the close score margins in most of the games, looking at the window of whe
 The 17 home runs hit in the series had launch angles ranging from 22 to 37 degrees and launch speeds from 94 to 112 mph. As seen in the plot, a ball falling in the home run window does not necessarily mean a home run occurred. @cr-launchplot_hr_range
 
 ::: {#cr-launchplot_hr_range}
-![](visualizations/1214VIZ/launchplot_hrRange_video.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_video.html){width="900" height="700"}
 :::
 ::::
 
@@ -97,7 +97,7 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 **Shohei Ohtani**, the 2024 National League Most Valuable Player and Dodgers' designated hitter, hit 2 balls in the home run window.  @cr-launchplot_hr_range_Ohtani
 
 ::: {#cr-launchplot_hr_range_Ohtani}
-![](visualizations/1214VIZ/launchplot_hrRange_Ohtani.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_Ohtani.html){width="900" height="700"}
 :::
 
 :::::
@@ -106,7 +106,7 @@ The 17 home runs hit in the series had launch angles ranging from 22 to 37 degre
 His lone home run in the series took place in Game 1, which provided 3 runs in a 7-5 win. @cr-launchplot_hr_Ohtani_HR
 
 ::: {#cr-launchplot_hr_Ohtani_HR}
-![](visualizations/1214VIZ/launchplot_hrRange_Ohtani_HR.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_Ohtani_HR.html){width="900" height="700"}
 :::
 ::::
 
@@ -115,7 +115,7 @@ His lone home run in the series took place in Game 1, which provided 3 runs in a
 **Manny Machado**, the Padres' third baseman, hit 3 balls in the home run window. @cr-launchplot_hr_range_Machado
 
 ::: {#cr-launchplot_hr_range_Machado}
-![](visualizations/1214VIZ/launchplot_hrRange_Machado.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_Machado.html){width="900" height="700"}
 :::
 
 ::::::
@@ -124,7 +124,7 @@ His lone home run in the series took place in Game 1, which provided 3 runs in a
 Expanding the home run window to a launch angle of 41 degrees shows some near-miss home runs from Machado. @cr-launchplot-MachadoNearMiss
 
 ::: {#cr-launchplot-MachadoNearMiss}
-![](visualizations/1214VIZ/launchplot_hrRange_MachadoExpandedAngle.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_MachadoExpandedAngle.html){width="900" height="700"}
 :::
 ::::::
 
@@ -132,7 +132,7 @@ Expanding the home run window to a launch angle of 41 degrees shows some near-mi
 Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell just short of clearing the wall for home runs, suggesting how subtle shifts in launch metrics can influence baseball history. @cr-launchplot-MachadoNearMissOnly
 
 ::: {#cr-launchplot-MachadoNearMissOnly}
-![](visualizations/1214VIZ/launchplot_hrRange_MachadoExpandedAngleGm5.html){width="900" height="700"}
+![](visualizations/launchplot_hrRange_MachadoExpandedAngleGm5.html){width="900" height="700"}
 :::
 ::::::
 
