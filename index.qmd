@@ -138,7 +138,7 @@ Two near-home runs came in Game 5, a 2-0 loss for the Padres. Both balls fell ju
 
 # Shiny App
 
-The Launch Plot for the 2024 Dodgers-Padres Playoff series is available in a [Shiny app](github.com).
+The Launch Plot for the 2024 Dodgers-Padres Playoff series is available in a [Shiny app](https://axelkent.shinyapps.io/LaunchMetricsApp/).
 
 # Acknowledgements
 
